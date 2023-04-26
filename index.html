@@ -1,60 +1,71 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.container {
-  position: relative;
-  width: 50%;
-}
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      .hover14 figure {
+        position: relative;
+      }
 
-  body {background-color: lightblue;}
-  
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+      .hover14 figure::before {
+        position: absolute;
+        top: 0;
+        left: -75%;
+        z-index: 2;
+        display: block;
+        content: "";
+        width: 50%;
+        height: 100%;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+        transform: skewX(-25deg);
+      }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #6a758a;
-}
+      .hover14 figure:hover::before {
+        animation: shine .75s;
+      }
 
-.container:hover .overlay {
-  opacity: 1;
-}
+      @keyframes shine {
+        100% {
+          left: 125%;
+        }
+      }
 
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-</style>
-</head>
-<body>
+      body {
+        background-color: lightblue;
+      }
+
+      .image {
+        display: block;
+        width: 100%;
+        height: auto;
+
+      }
+      
+      .menu {
+        display: flex;
+        justify-content: space-around;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="hover14">
+      <figure><img src="logo.svg" alt="Avatar" class="image">
+      </figure>
+    </div>
+
+    <div class="menu">
+      <div class="hook1">
+				hook1
+      </div>
+      <div class="hook2">
+        hook2
+      </div>
+      <div class="hook3">
+        hook3
+      </div>
+    </div>
 
 
-<div class="container">
-  <img src="assets.png" alt="Avatar" class="image">
-  <div class="overlay">
-    <div class="text">Works of Zoe Kim</div>
-  </div>
-</div>
-
-</body>
+  </body>
 </html>
