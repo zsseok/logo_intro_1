@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 582.71">
+  <defs>
+    <style>
+      .d {
+        fill: none;
+        stroke: #a3a3a3;
+        stroke-width: 3.21px;
+      }
+
+      .d, .e, .f {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .e {
+        fill: url(#c);
+      }
+
+      .e, .f {
+        stroke: #000;
+      }
+
+      .f {
+        fill: url(#b);
+      }
+    </style>
+    <linearGradient id="b" x1=".5" y1="-473.25" x2="22.45" y2="-473.25" gradientTransform="translate(0 81.21) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000"/>
+      <stop offset=".15" stop-color="#030303"/>
+      <stop offset=".28" stop-color="#0d0d0d"/>
+      <stop offset=".4" stop-color="#1f1f1f"/>
+      <stop offset=".52" stop-color="#373737"/>
+      <stop offset=".63" stop-color="#575757"/>
+      <stop offset=".74" stop-color="#7e7e7e"/>
+      <stop offset=".84" stop-color="#acacac"/>
+      <stop offset=".95" stop-color="#e0e0e0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="c" x1="16.5" y1="-440.99" x2="25.5" y2="-440.99" gradientTransform="translate(0 81.21) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+  </defs>
+  <line class="d" x1="21.29" y1="1.61" x2="21.29" y2="518.64"/>
+  <path class="f" d="m22.11,526.7s.76,38.82,0,42.41-1.79,13.1-10.21,13.1-11.4-13.5-11.4-13.5v-9.76l6.05,11.75-3.19-1.99s1.9,10.47,7.95,10.47,7.05-6.47,8.05-10.47.16-42.01.16-42.01h2.59Z"/>
+  <path class="e" d="m21,517.7c-2.49,0-4.5,2.01-4.5,4.5s2.01,4.5,4.5,4.5,4.5-2.01,4.5-4.5-2.01-4.5-4.5-4.5Zm0,7c-1.38,0-2.5-1.12-2.5-2.5s1.12-2.5,2.5-2.5,2.5,1.12,2.5,2.5-1.12,2.5-2.5,2.5Z"/>
+</svg>
