@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 26 1084.1" style="enable-background:new 0 0 26 1084.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#A3A3A3;stroke-width:1.7575;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:url(#SVGID_1_);stroke:#000000;stroke-width:0.5475;stroke-linecap:round;stroke-linejoin:round;}
+	
+		.st2{fill:url(#SVGID_00000139275582385098739410000018093807175076793733_);stroke:#000000;stroke-width:0.5475;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<line class="st0" x1="17.9" y1="29.6" x2="17.9" y2="587.2"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="6.5048" y1="477.1735" x2="18.5212" y2="477.1735" gradientTransform="matrix(1 0 0 -1 0 1084)">
+	<stop  offset="0" style="stop-color:#000000"/>
+	<stop  offset="0.15" style="stop-color:#030303"/>
+	<stop  offset="0.28" style="stop-color:#0D0D0D"/>
+	<stop  offset="0.4" style="stop-color:#1F1F1F"/>
+	<stop  offset="0.52" style="stop-color:#373737"/>
+	<stop  offset="0.63" style="stop-color:#575757"/>
+	<stop  offset="0.74" style="stop-color:#7E7E7E"/>
+	<stop  offset="0.84" style="stop-color:#ACACAC"/>
+	<stop  offset="0.95" style="stop-color:#E0E0E0"/>
+	<stop  offset="1" style="stop-color:#FFFFFF"/>
+</linearGradient>
+<path class="st1" d="M18.3,591.6c0,0,0.4,21.3,0,23.2c-0.4,2-1,7.2-5.6,7.2c-4.6,0-6.2-7.4-6.2-7.4v-5.3l3.3,6.4l-1.7-1.1
+	c0,0,1,5.7,4.4,5.7s3.9-3.5,4.4-5.7s0.1-23,0.1-23H18.3z"/>
+<linearGradient id="SVGID_00000058576340613629614420000005743596608481656481_" gradientUnits="userSpaceOnUse" x1="15.2648" y1="494.8331" x2="20.1923" y2="494.8331" gradientTransform="matrix(1 0 0 -1 0 1084)">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path style="fill:url(#SVGID_00000058576340613629614420000005743596608481656481_);stroke:#000000;stroke-width:0.5475;stroke-linecap:round;stroke-linejoin:round;" d="
+	M17.7,586.7c-1.4,0-2.5,1.1-2.5,2.5s1.1,2.5,2.5,2.5s2.5-1.1,2.5-2.5S19.1,586.7,17.7,586.7z M17.7,590.5c-0.8,0-1.4-0.6-1.4-1.4
+	s0.6-1.4,1.4-1.4c0.8,0,1.4,0.6,1.4,1.4S18.5,590.5,17.7,590.5z"/>
+</svg>
