@@ -108,10 +108,52 @@
         justify-content: space-around;
       }
 
-      .about:hover {
-        color: red;
-        transition: all 1s
+            .animated, .animated:before {
+        display: flex;
+	  position: absolute;
+        transition: all .5s ease-in-out;
+        top: -2200px;
+        justify-content: space-around;
+        z-index: -1;
       }
+
+      .hook1 { 
+        width: 10% !important;
+        transition: all .5s ease-in-out;
+        margin-block-start: 2em;
+        margin-block-end: 2em;
+        margin-inline-start: 40px;
+        margin-inline-end: 85px;
+        z-index: -1 !important;
+			} 
+      
+      .hook2 { 
+        width: 10% !important;
+        transition: all .5s ease-in-out;
+        margin-block-start: 2em;
+        margin-block-end: 2em;
+        margin-inline-start: 40px;
+        margin-inline-end: 85px;
+        z-index: -1 !important;
+			} 
+      
+      .hook3 { 
+        width: 10% !important;
+        transition: all .5s ease-in-out;
+        margin-block-start: 2em;
+        margin-block-end: 2em;
+        margin-inline-start: 40px;
+        margin-inline-end: 85px;
+        z-index: -1 !important;
+			} 
+      .about figure:hover::before {
+z-index: 999 !important;
+} 
+       .menu:hover ~ .animated {
+       transition: all .5s ease-in-out;
+       top: -700px;
+      	}
+      
     </style>
   </head>
   <body>
