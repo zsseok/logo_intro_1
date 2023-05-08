@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-      .hover14 figure {
-        position: relative;
+
+      .hover14 { display: flex;
+      justify-content: center;
       }
 
+      .hover14 figure { 
+      display: flex;
+        width: 50%;
+        height: 120%;
+} 
       .hover14 figure::before {
         position: absolute;
         top: 0;
         left: -75%;
         z-index: 2;
-        display: block;
+        display: flex;
+        justify-content: center;
         content: "";
-        width: 50%;
-        height: 100%;
+        width: 30%;
+        height: 45%;
         background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
         transform: skewX(-25deg);
       }
@@ -28,31 +36,6 @@
         100% {
           left: 125%;
         }
-      }
-
-      .menu figure {
-        position: relative;
-      }
-
-      .menu figure::before {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        z-index: 2;
-        display: block;
-        content: "";
-        width: 0;
-        height: 0;
-        background: rgba(255, 255, 255, .2);
-        border-radius: 90%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        opacity: 0;
-      }
-
-      .menu figure:hover::before {
-        -webkit-animation: circle .5s;
-        animation: circle .5s;
       }
 
       @-webkit-keyframes circle {
@@ -91,69 +74,54 @@
         background-color: lightblue;
       }
 
-      .image {
+.about, .works, .contact { 
+        position: relative;
+        width: 30vw;
+        float: left;
+        z-index: 4;
+      }
+
+      .about figure::before, .works figure::before, .contact figure::before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 20vw;
+        height: 20vh;
         display: block;
-        width: 100%;
-        height: auto;
+        content: "";
+        width: 0;
+        height: 0;
+        background: rgba(255, 255, 255, .2);
+        border-radius: 90%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        opacity: 0;
 
       }
-
-      .menu {
-        display: flex;
-        justify-content: space-around;
+      .about figure:hover::before, .works figure:hover::before, .contact figure:hover::before {
+        animation: circle .75s;
       }
 
-      .animated {
-        display: flex;
-        justify-content: space-around;
-      }
-
-            .animated, .animated:before {
-        display: flex;
-	  position: absolute;
-        transition: all .5s ease-in-out;
-        top: -2200px;
-        justify-content: space-around;
-        z-index: -1;
-      }
-
-      .hook1 { 
+      .hook1, .hook2, .hook3 { 
+        top: -4600px;
+        position: relative; 
         width: 10% !important;
         transition: all .5s ease-in-out;
-        margin-block-start: 2em;
-        margin-block-end: 2em;
-        margin-inline-start: 40px;
-        margin-inline-end: 85px;
         z-index: -1 !important;
-			} 
-      
-      .hook2 { 
-        width: 10% !important;
-        transition: all .5s ease-in-out;
-        margin-block-start: 2em;
-        margin-block-end: 2em;
-        margin-inline-start: 40px;
-        margin-inline-end: 85px;
-        z-index: -1 !important;
-			} 
-      
-      .hook3 { 
-        width: 10% !important;
-        transition: all .5s ease-in-out;
-        margin-block-start: 2em;
-        margin-block-end: 2em;
-        margin-inline-start: 40px;
-        margin-inline-end: 85px;
-        z-index: -1 !important;
-			} 
-      .about figure:hover::before {
-z-index: 999 !important;
+        padding-left: 10vw;
+        padding-right: 10vw;
+
 } 
-       .menu:hover ~ .animated {
-       transition: all .5s ease-in-out;
-       top: -700px;
-      	}
-      
+      .about:hover ~ .hook1 {
+        top: -2200px !important;
+      }
+      .works:hover ~ .hook2 {
+        top: -2200px !important;
+      }
+      .contact:hover ~ .hook3 {
+        top: -2200px !important;
+      }
+
     </style>
   </head>
   <body>
@@ -162,13 +130,11 @@ z-index: 999 !important;
       <figure><img src="logo.svg" alt="Avatar" class="image">
       </figure>
     </div>
-
-    <div class="menu">
       <div class="about">
         <figure><img src="about.svg" alt="Avatar" class="image">
         </figure>
       </div>
-      <div class="works">
+<div class="works">
         <figure><img src="works.svg" alt="Avatar" class="image">
         </figure>
       </div>
@@ -176,18 +142,14 @@ z-index: 999 !important;
         <figure><img src="contact.svg" alt="Avatar" class="image">
         </figure>
       </div>
-    </div>
-
-    <div class="animated">
-      <div class="hook1">
-        <figure><img src="hook1.svg" alt="Avatar" class="image"></figure>
+      <div class="hook1" style="float:left;">
+        <figure><img src="hook.svg" alt="Avatar" class="image"></figure>
       </div>
-      <div class="hook2">
-        <figure> <img src="hook1.svg" alt="Avatar" class="image"></figure>
+      <div class="hook2" style="float:left;">
+        <figure> <img src="hook.svg" alt="Avatar" class="image"></figure>
       </div>
-      <div class="hook3">
-        <figure><img src="hook1.svg" alt="Avatar" class="image"> </figure>
-      </div>
+      <div class="hook3" style="float:left;">
+        <figure><img src="hook.svg" alt="Avatar" class="image"> </figure>
 
 
   </body>
